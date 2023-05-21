@@ -7,9 +7,11 @@ print(Missing_Guest)
 
 print("Wow! We can invite 3 more guests to our dinner!")
 
-Guests.insert("Evgeniy", 0)
-Guests.insert("Vladislav", 1)
-Guests.insert("Evgeniy", 2)
+Guests.insert(0, "Aleksandr")
+Guests.insert(0, "Egor")
+Guests.insert(0, "Evgeniy")
+
+
 
 for i in Guests:
     print(f"Hello, {i}! I want to invite you to my dinner.")
@@ -29,8 +31,6 @@ elif a == 2:
 for i in Guests:
     print(f"Hello, {i}! You still can come to my dinner.")
 
-del Guests[0]
-del Guests[0]
 
 print(Guests)
 
